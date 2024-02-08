@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+    <style>
+        .parent {
+            display: flex;
+            height: 100vh;
+        }
+        body {
+            background-color: #212121;
+            color: #fff;
+        }
+
+        .main {
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .main .card {
+            flex: 50%;
+        }
+
+        .card {
+            /* background-color: #474F7A; */
+            box-shadow: 0 4px 8px 0 #40A2E3;
+            transition: 0.3s;
+            /* margin: 0 15px 15px 15px; */
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 #0D9276;
+        }
+
+        .container {
+            padding: 2px 16px;
+            margin: 20px;
+        }
+
+        h4 {
+            font-size: 26px;
+            font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        }
+
+        .button {
+  background-color: #0a6bff;
+  border-radius: 8px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button:hover {
+  background-color: #0D9276;
+  transform: translateY(-8px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="main">
+            <div class="card">
+                <div class="container">
+                    <h4><b>BMI Calculator</b></h4>
+                    <a href="practice/bmi-calculator/index.html"><button class="button" role="button">Try</button></a> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="container">
+                    <h4><b>Digital Clock</b></h4>
+                   <a href="practice/digital-clock/index.html"><button class="button" role="button">Try</button></a> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="container">
+                    <h4><b>Theme Changer</b></h4>
+                    <a href="practice/theme-changer/index.html"><button class="button" role="button">Try</button></a> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="container">
+                    <h4><b>Unlimited Background Color Changer</b></h4>
+                    <a href="practice/bg-changer/index.html"><button class="button" role="button">Try</button></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
